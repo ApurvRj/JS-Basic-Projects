@@ -1,0 +1,65 @@
+.container{
+    background-image: url(heroimage.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.img-responsive{
+    max-width: 100%;  
+}
+.container h1{
+    text-align: center;
+}
+
+.container p{
+    text-align: justify;
+}
+#pincode{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#pincode input{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+}
+
+#pincode button{
+    display: block;
+    width: 40%;
+    text-align: center;
+    background-color: #00bab1;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+    margin: 1rem auto 0rem ;
+    border: none;
+    outline: none;
+}
+
+.product{
+    width: 80%;
+    margin-top: 0.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list_item{
+    float: left;
+    width: 32.33%;
+    margin-left: 0.5rem;
+}
+
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
